@@ -8,7 +8,7 @@
 // ----------------------------------------------------------------------
 
 // Library this Jenkinsfile uses - configured in Manage Jenkins/Configure System
-library 'CraigsLibs'
+library 'lib'
 
 pipeline {
    agent any
