@@ -4,6 +4,9 @@ pipeline {
 	stages {
 		stage("Build") {
 			steps {
+			        sh '. ~/.nvm/nvm.sh'
+                                sh '. ~/.profile'
+                                sh '. ~/.bashrc'
 				sh 'mvn -v'
 			}
 		}
